@@ -483,6 +483,16 @@ body {
 } */
 /* ===================== prefs end  ========================== */
 /* =====================  what-we-do start  ========================== */
+.section-half-top {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-half-top {
+    display: block;
+  }
+}
+
 .what-wedo__list {
   flex-wrap: wrap;
   margin-top: -30px;

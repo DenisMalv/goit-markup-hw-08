@@ -1,4 +1,10 @@
 /* =====================  what-we-do start  ========================== */
+.section-half-top {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
 .what-wedo__list {
   flex-wrap: wrap;
 
