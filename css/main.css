@@ -354,17 +354,31 @@ body {
 
 .hero__title {
   font-weight: 900;
-  font-size: 44px;
+  font-size: 20px;
   line-height: 1.36;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-white);
-  width: 696px;
+  width: 280px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .hero__title {
+    font-size: 26px;
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    width: 696px;
+  }
 }
 
 .hero__button {
