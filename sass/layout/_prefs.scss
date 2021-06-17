@@ -1,0 +1,48 @@
+/* ===================== prefs start  ========================== */
+.container {
+  .prefs {
+    padding-bottom: 0;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+}
+
+.prefs__item {
+  /* width: 270px; */
+  width: calc((100% - 120px) / 4);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.prefs__bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  background-color: var(--button-bcgr-color);
+}
+/* .prefs-bg .icon {
+  width: 70px;
+  height: 70px;
+} */
+
+.prefs__item__h {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+
+  color: var(--text-color-black);
+
+  margin-bottom: 10px;
+}
+
+/* .prefs-item-p {
+   this style's in our body 
+} */
+
+/* ===================== prefs end  ========================== */
