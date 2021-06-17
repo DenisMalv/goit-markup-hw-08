@@ -618,27 +618,51 @@ body {
 
 /* ===================== our-team end  ========================== */
 /* ========================== clients start  ========================== */
-.section-clients {
-  padding-top: 94px;
-  padding-bottom: 91px;
+.client__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .client__list {
+    margin-top: 0;
+    margin-left: 0;
+  }
 }
 
 .clients__logo {
   display: block;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: calc((100% - 60px) / 2);
 }
 
-.clients__logo:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 768px) {
+  .clients__logo {
+    width: calc((100% - 90px) / 3);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients__logo {
+    width: 170px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .clients__logo:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients__logo__icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  min-height: 92px;
   fill: #afb1b8;
   transition-property: fill, border-color;
   transition-duration: 250ms;
