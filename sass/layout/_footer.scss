@@ -127,10 +127,6 @@
   align-items: center;
   flex-direction: column;
 
-  @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
   @media screen and (min-width: 1200px) {
     flex-direction: row;
   }
@@ -139,10 +135,7 @@
 .wrapper-description--subscribe {
   display: block;
   text-align: center;
-  @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
+
   @media screen and (min-width: 1200px) {
     text-align: left;
   }
@@ -174,8 +167,7 @@
 
     color: rgba(255, 255, 255, 0.6);
   }
-  @media screen and (min-width: 480px) {
-  }
+
   @media screen and (min-width: 768px) {
     width: 450px;
   }
@@ -191,7 +183,6 @@
   justify-content: center;
   align-items: center;
   max-width: 200px;
-  // align-self: flex-end;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
