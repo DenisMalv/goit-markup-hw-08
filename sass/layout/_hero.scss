@@ -13,13 +13,14 @@
     url(../images/320/banner-320-x1.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: #c4c4c4;
 
   .container {
     text-align: center;
   }
 }
-
+// ================== х2 mobile 320px =================
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -30,10 +31,9 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/320/banner-320-@2x.jpg);
-    background-size: cover;
   }
 }
-
+// ================== х2 mobile 480px =================
 @media screen and (min-width: 480px) {
   .hero {
     max-width: 480px;
@@ -55,10 +55,9 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/480/banner-480-@2x.jpg);
-    background-size: cover;
   }
 }
-
+// ================== х2 mobile 768px =================
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
@@ -80,10 +79,9 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/768/banner-768-@2x.jpg);
-    background-size: cover;
   }
 }
-
+// ================== х2 mobile 1200px =================
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 200px;
@@ -107,7 +105,6 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/1200/banner-1200-@2x.jpg);
-    background-size: cover;
   }
 }
 
