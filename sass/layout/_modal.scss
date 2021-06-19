@@ -88,6 +88,40 @@
     font-size: 20px;
   }
 }
+@media screen and (max-height: 560px) {
+  .modal-form {
+    padding: 16px;
+    &__title {
+      font-size: 16px;
+    }
+  }
+  .album-rotation {
+    display: flex;
+    &__main {
+      margin-right: 10px;
+      width: 55%;
+    }
+    &__textarea {
+      width: 45%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-end;
+      align-content: flex-start;
+    }
+    .modal-form__label-text {
+      margin-bottom: 0px;
+    }
+    .modal-form__input-textarea {
+      height: 164px;
+      margin-bottom: 0;
+    }
+  }
+  .modal-button-send {
+    padding: 4px 56px;
+  }
+}
 
 .modal-form__input-wrapper {
   position: relative;

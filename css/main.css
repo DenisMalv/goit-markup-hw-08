@@ -743,6 +743,10 @@ body {
   }
 }
 
+.test {
+  display: flex;
+}
+
 .prefs__bg {
   display: flex;
   align-items: center;
@@ -1537,6 +1541,41 @@ body {
 @media screen and (min-width: 480px) {
   .modal-form__title {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-height: 560px) {
+  .modal-form {
+    padding: 16px;
+  }
+  .modal-form__title {
+    font-size: 16px;
+  }
+  .album-rotation {
+    display: flex;
+  }
+  .album-rotation__main {
+    margin-right: 10px;
+    width: 55%;
+  }
+  .album-rotation__textarea {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: flex-start;
+  }
+  .album-rotation .modal-form__label-text {
+    margin-bottom: 0px;
+  }
+  .album-rotation .modal-form__input-textarea {
+    height: 164px;
+    margin-bottom: 0;
+  }
+  .modal-button-send {
+    padding: 4px 56px;
   }
 }
 
