@@ -1293,6 +1293,12 @@ body {
   margin-left: 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .portf__list {
+    width: 100%;
+  }
+}
+
 .portf__list:last-child {
   display: none;
 }
@@ -1320,12 +1326,6 @@ body {
 
 .portf__list__item:hover, .portf__list__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-@media screen and (max-width: 479px) {
-  .portf__list__item {
-    width: 290px;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1362,15 +1362,13 @@ body {
 
 @media screen and (min-width: 320px) {
   .portf__list__item__card-main__img {
-    width: 290px;
-    height: 230px;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 480px) {
   .portf__list__item__card-main__img {
-    width: 450px;
-    height: 294px;
+    width: 100%;
   }
 }
 

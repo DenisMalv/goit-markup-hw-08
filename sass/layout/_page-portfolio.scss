@@ -78,6 +78,11 @@
 .portf__list {
   margin-top: 30px;
   margin-left: 30px;
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+
   &:last-child {
     display: none;
   }
@@ -107,7 +112,6 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
   @media screen and (max-width: 479px) {
-    width: 290px;
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: calc((768px - 60px) / 2);
@@ -135,13 +139,13 @@
 .portf__list__item__card-main__img {
   background-size: cover;
   @media screen and (min-width: 320px) {
-    width: 290px;
-    height: 230px;
+    width: 100%;
+    // height: 230px;
   }
 
   @media screen and (min-width: 480px) {
-    width: 450px;
-    height: 294px;
+    width: 100%;
+    // height: 294px;
   }
 
   @media screen and (min-width: 768px) {
