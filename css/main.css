@@ -1079,6 +1079,12 @@ body {
 
 /* ------------------ footer follow form end ------------------- */
 /* ------------------ footer subscribe form ------------------- */
+@media screen and (max-width: 767px) {
+  .footer-subscribe {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-subscribe {
     margin: 0 auto;
@@ -1104,6 +1110,10 @@ body {
   }
 }
 
+.footer-subscribe-form__container {
+  width: 100%;
+}
+
 .wrapper-description--subscribe {
   display: block;
   text-align: center;
@@ -1116,7 +1126,7 @@ body {
 }
 
 .footer-subscribe-form__email {
-  min-width: 280px;
+  min-width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
   padding-left: 16px;

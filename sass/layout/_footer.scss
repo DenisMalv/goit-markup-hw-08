@@ -111,6 +111,9 @@
 /* ------------------ footer follow form end ------------------- */
 /* ------------------ footer subscribe form ------------------- */
 .footer-subscribe {
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin: 0 auto;
     margin-top: 60px;
@@ -130,6 +133,10 @@
   @media screen and (min-width: 1200px) {
     flex-direction: row;
   }
+
+  &__container {
+    width: 100%;
+  }
 }
 
 .wrapper-description--subscribe {
@@ -142,7 +149,7 @@
 }
 
 .footer-subscribe-form__email {
-  min-width: 280px;
+  min-width: 100%;
 
   margin-top: 20px;
   margin-bottom: 20px;
