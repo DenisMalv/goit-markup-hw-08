@@ -824,12 +824,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-}
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .our-team__list {
-    justify-content: center;
-  }
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
