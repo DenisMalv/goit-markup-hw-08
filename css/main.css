@@ -768,6 +768,12 @@ body {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .prefs__item__h {
+    text-align: start;
+  }
+}
+
 /* .prefs-item-p {
    this style's in our body 
 } */
