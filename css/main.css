@@ -1547,13 +1547,15 @@ body {
 
 @media screen and (max-height: 554px) {
   .modal-form {
-    padding: 16px;
+    padding: 20px;
   }
   .modal-form__title {
     font-size: 16px;
+    margin-bottom: 20px;
   }
   .album-rotation {
     display: flex;
+    margin-bottom: 20px;
   }
   .album-rotation__main {
     margin-right: 10px;
@@ -1569,14 +1571,28 @@ body {
     align-content: flex-start;
   }
   .album-rotation .modal-form__label-text {
+    display: none;
     margin-bottom: 0px;
   }
+  .album-rotation .modal-form__input__text::placeholder {
+    visibility: visible;
+    opacity: 1;
+    font-size: 10px;
+    line-height: 1.16;
+    color: rgba(117, 117, 117, 0.5);
+  }
   .album-rotation .modal-form__input-textarea {
-    height: 164px;
+    height: 138px;
     margin-bottom: 0;
   }
+  .album-rotation .modal-form__input-textarea::placeholder {
+    font-size: 10px;
+  }
+  .private-policy {
+    justify-content: center;
+  }
   .modal-button-send {
-    padding: 4px 56px;
+    padding: 0px 40px !important;
   }
 }
 
@@ -1614,6 +1630,8 @@ body {
 }
 
 .modal-form__input__text::placeholder {
+  visibility: hidden;
+  opacity: 0;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.01em;
